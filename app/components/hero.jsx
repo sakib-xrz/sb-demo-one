@@ -128,7 +128,7 @@ export default function Hero() {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <img src="assets/images/video/hero-five.jpg" alt="Video" />
+              <img src="assets/images/video/hero-five.png" alt="Video" />
               <a
                 target="_blank"
                 href="https://www.youtube.com/watch?v=TfU0qjuZkJ4"
