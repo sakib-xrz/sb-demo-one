@@ -315,9 +315,10 @@ const Footer1 = () => {
                     <h6>Contact Us</h6>
                   </div>
                   <div className="text">
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:info@strategybyte.com.au">
+                      info@strategybyte.com.au
+                    </a>
                     <br />
-                    <a href="callto:+000(123)8899">+000 (123) 88 99</a>
                   </div>
                 </div>
               </div>
@@ -607,9 +608,11 @@ const Footer4 = () => {
 const Footer5 = () => {
   return (
     <footer
-      className="main-footer style-two bgc-black text-white bgp-bottom pt-250 rel z-1"
+      className="main-footer style-two bgc-black text-white bgp-bottom pt-250 "
       style={{
-        backgroundImage: "url(assets/images/background/footer-two.png)",
+        backgroundImage: "url(assets/images/background/hero-five-bg.png)",
+        backgroundPosition: "center bottom",
+        backgroundSize: "cover",
       }}
     >
       <div className="container container-1290 pb-50">
@@ -634,9 +637,11 @@ const Footer5 = () => {
           >
             <div className="footer-widget footer-contact">
               <p>Get in touch with our team</p>
-              <div className="section-title">
+              <div className="">
                 <h2>
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:info@strategybyte.com.au">
+                    info@strategybyte.com.au
+                  </a>
                 </h2>
               </div>
               <div className="social-style-two mt-10">
@@ -668,13 +673,7 @@ const Footer5 = () => {
                 <img src="assets/images/logos/logo-footer.png" alt="Logo" />
               </div> */}
             </div>
-            <div className="col-md-9 text-center text-lg-end">
-              <div className="copyright-text text-center text-md-end">
-                <p>
-                  Copyright © <Link href="/">Ridda</Link>, all rights reserved.
-                </p>
-              </div>
-            </div>
+            <div className="col-md-9 text-center text-lg-end"></div>
           </div>
           {/* Scroll Top Button */}
           <button className="scroll-top scroll-to-target" data-target="html">

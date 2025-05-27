@@ -422,12 +422,23 @@ const Header5 = ({ menus }) => {
             <div className="menu-btns d-lg-flex align-items-center">
               <div className="header-number me-5 d-none d-xl-block">
                 <i className="fas fa-phone me-1" />
-                <a href="callto:+000(123)889933">+000 (123) 88 99 33</a>
+                <a href="callto:0410 745 998">0410 745 998</a>
               </div>
               <Link
                 href="contact"
-                className="theme-btn btn-small color-white"
+                className="theme-btn color-white hover-secondary"
                 data-hover="Let’s Talk"
+                style={{
+                  backgroundColor: "#ffc605",
+                  color: "#fff",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = "#fff";
+                  e.currentTarget.style.color = "#2f3f61";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = "#ffc605";
+                }}
               >
                 <span>Let’s Talk</span>
               </Link>
