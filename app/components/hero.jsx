@@ -17,6 +17,8 @@ export default function Hero() {
       className="hero-area-five bgp-bottom pt-220 rpt-145 pb-250 rpb-150 rel z-1"
       style={{
         backgroundImage: "url(assets/images/background/hero-five-bg.png)",
+        backgroundPosition: "center bottom",
+        backgroundSize: "cover",
       }}
     >
       <div className="container container-1290">
@@ -28,7 +30,15 @@ export default function Hero() {
         >
           <h1>
             Unlock Your
-            <br /> Digital Potential
+            <br />{" "}
+            <span
+              style={{
+                color: "#ffc605",
+              }}
+            >
+              {" "}
+              Digital Potential
+            </span>
           </h1>
           <div className="content mb-50">
             <span className="h1">Agency</span>
@@ -40,7 +50,7 @@ export default function Hero() {
             <Link
               href="project-list"
               className="theme-btn color-white hover-secondary"
-              data-hover="Explore Our Projects"
+              data-hover="Contact Us"
               style={{
                 backgroundColor: "#ffc605",
                 color: "#fff",
@@ -53,7 +63,7 @@ export default function Hero() {
                 e.currentTarget.style.backgroundColor = "#ffc605";
               }}
             >
-              <span>Explore Our Projects</span>
+              <span>Contact Us</span>
             </Link>
           </div>
         </div>
@@ -124,7 +134,7 @@ export default function Hero() {
                 href="https://www.youtube.com/watch?v=TfU0qjuZkJ4"
                 className="mfp-iframe color-primary video-play"
               >
-                <i className="fas fa-play" />
+                <i className="fas fa-play" style={{ color: "#2f3f61" }} />
               </a>
             </div>
           </div>

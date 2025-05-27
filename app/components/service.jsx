@@ -58,13 +58,13 @@ export default function Service() {
                   alt="About"
                 />
                 <div className="shape one">
-                  <img src="assets/images/shapes/about-two1.webp" alt="Shape" />
+                  <img src="assets/images/shapes/about-two1.png" alt="Shape" />
                 </div>
                 <div className="shape two">
-                  <img src="assets/images/shapes/about-two2.webp" alt="Shape" />
+                  <img src="assets/images/shapes/about-two2.png" alt="Shape" />
                 </div>
                 <div className="shape three">
-                  <img src="assets/images/shapes/about-two3.webp" alt="Shape" />
+                  <img src="assets/images/shapes/about-two3.png" alt="Shape" />
                 </div>
                 <div className="abs-headings">
                   <h6
@@ -78,9 +78,13 @@ export default function Service() {
                   </h6>
                   <h6
                     className="shape five"
+                    // style={{
+                    //   backgroundColor: "#fff",
+                    //   color: "#2f3f61",
+                    // }}
                     style={{
-                      backgroundColor: "#fff",
-                      color: "#2f3f61",
+                      backgroundColor: "#ffc605",
+                      color: "#fff",
                     }}
                   >
                     Website Development
@@ -88,8 +92,8 @@ export default function Service() {
                   <h6
                     className="shape six "
                     style={{
-                      backgroundColor: "#ffc605",
-                      color: "#fff",
+                      backgroundColor: "#fff",
+                      color: "#2f3f61",
                     }}
                   >
                     Digital Impact
@@ -118,7 +122,7 @@ export default function Service() {
                 <Link
                   href="about"
                   className="theme-btn color-white hover-secondary mt-25"
-                  data-hover="Learn More Us"
+                  data-hover="Contact Us"
                   style={{
                     backgroundColor: "#ffc605",
                     color: "#fff",
@@ -129,9 +133,10 @@ export default function Service() {
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.backgroundColor = "#ffc605";
+                    e.currentTarget.style.color = "#fff";
                   }}
                 >
-                  <span>Learn More Us</span>
+                  <span>Contact Us</span>
                 </Link>
               </div>
             </div>
