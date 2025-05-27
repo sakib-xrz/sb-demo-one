@@ -237,7 +237,7 @@ export default function Hero() {
               <img src="assets/images/video/hero-five.png" alt="Video" />
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=TfU0qjuZkJ4"
+                href="https://www.youtube.com/watch?v=JNSvY6NM2n4"
                 className="mfp-iframe color-primary video-play"
               >
                 <i className="fas fa-play" style={{ color: "#2f3f61" }} />
