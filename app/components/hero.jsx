@@ -67,7 +67,7 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <div className="row align-items-center">
+        {/* <div className="row align-items-center">
           <div className="col-lg-6">
             <div
               className="hero-five-clients text-white rmb-55"
@@ -97,6 +97,112 @@ export default function Hero() {
                   src="assets/images/hero/client-logo3.png"
                   alt="Client Logo"
                 />
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-delay={50}
+                  src="assets/images/hero/client-logo1.png"
+                  alt="Client Logo"
+                />
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-delay={150}
+                  src="assets/images/hero/client-logo2.png"
+                  alt="Client Logo"
+                />
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-delay={250}
+                  src="assets/images/hero/client-logo3.png"
+                  alt="Client Logo"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div
+              className="video-wrap rel"
+              data-aos="fade-right"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <img src="assets/images/video/hero-five.png" alt="Video" />
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=TfU0qjuZkJ4"
+                className="mfp-iframe color-primary video-play"
+              >
+                <i className="fas fa-play" style={{ color: "#2f3f61" }} />
+              </a>
+            </div>
+          </div>
+        </div> */}
+        <div className="row align-items-center">
+          <div className="col-lg-6">
+            <div
+              className="hero-five-clients text-white rmb-55"
+              data-aos="fade-left"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <h5>Trusted Advisors For:</h5>
+              <div className="trusted-clients mt-25 mb-35">
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-delay={50}
+                  src="assets/images/hero/author1.webp"
+                  alt="Author"
+                  style={{
+                    background: "#fff",
+                    outline: "2px solid #ffc605",
+                    outlineOffset: "2px",
+                    border: "1px solid #000",
+                  }}
+                />
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-delay={100}
+                  src="assets/images/hero/author2.webp"
+                  alt="Author"
+                  style={{
+                    background: "#fff",
+                    outline: "2px solid #ffc605",
+                    outlineOffset: "2px",
+                    border: "1px solid #000",
+                  }}
+                />
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-delay={150}
+                  src="assets/images/hero/author3.webp"
+                  alt="Author"
+                  style={{
+                    background: "#fff",
+                    outline: "2px solid #ffc605",
+                    outlineOffset: "2px",
+                    border: "1px solid #000",
+                  }}
+                />
+                <img
+                  data-aos="fade-right"
+                  data-aos-duration={1500}
+                  data-aos-delay={150}
+                  src="assets/images/hero/author4.webp"
+                  alt="Author"
+                  style={{
+                    background: "#fff",
+                    outline: "2px solid #ffc605",
+                    outlineOffset: "2px",
+                    border: "1px solid #000",
+                  }}
+                />
+              </div>
+              <div className="client-logos">
                 <img
                   data-aos="fade-right"
                   data-aos-duration={1500}
