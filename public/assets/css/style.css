@@ -5405,7 +5405,7 @@ h6,
 }
 .hero-two-image-part .shape.five {
   right: 0;
-  bottom: 14%;
+  bottom: 100%;
   -webkit-animation: zoomInOut 6s infinite;
   animation: zoomInOut 6s infinite;
 }
@@ -6339,6 +6339,7 @@ h6,
   border-radius: 10px;
   padding: 40px 50px 35px;
   border: 1px solid var(--ridda-border-color);
+  height: 100%;
 }
 @media only screen and (max-width: 991px) {
   .service-two-item {

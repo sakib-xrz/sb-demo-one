@@ -42,14 +42,15 @@ export default function Hero() {
               className="theme-btn color-white hover-secondary"
               data-hover="Explore Our Projects"
               style={{
-                backgroundColor: "#2f3f61",
+                backgroundColor: "#ffc605",
                 color: "#fff",
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = "#ffc605";
+                e.currentTarget.style.backgroundColor = "#fff";
+                e.currentTarget.style.color = "#2f3f61";
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = "#2f3f61";
+                e.currentTarget.style.backgroundColor = "#ffc605";
               }}
             >
               <span>Explore Our Projects</span>
@@ -64,52 +65,28 @@ export default function Hero() {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <h5>100k+ Trusted Clients</h5>
-              <div className="trusted-clients mt-25 mb-35">
+              <div className="client-logos">
                 <img
                   data-aos="fade-right"
                   data-aos-duration={1500}
                   data-aos-delay={50}
-                  src="assets/images/hero/author1.jpg"
-                  alt="Author"
-                />
-                <img
-                  data-aos="fade-right"
-                  data-aos-duration={1500}
-                  data-aos-delay={100}
-                  src="assets/images/hero/author2.jpg"
-                  alt="Author"
+                  src="assets/images/hero/client-logo1.png"
+                  alt="Client Logo"
                 />
                 <img
                   data-aos="fade-right"
                   data-aos-duration={1500}
                   data-aos-delay={150}
-                  src="assets/images/hero/author3.jpg"
-                  alt="Author"
-                />
-                <img
-                  data-aos="fade-right"
-                  data-aos-duration={1500}
-                  data-aos-delay={200}
-                  src="assets/images/hero/author4.jpg"
-                  alt="Author"
+                  src="assets/images/hero/client-logo2.png"
+                  alt="Client Logo"
                 />
                 <img
                   data-aos="fade-right"
                   data-aos-duration={1500}
                   data-aos-delay={250}
-                  src="assets/images/hero/author5.jpg"
-                  alt="Author"
+                  src="assets/images/hero/client-logo3.png"
+                  alt="Client Logo"
                 />
-                <img
-                  data-aos="fade-right"
-                  data-aos-duration={1500}
-                  data-aos-delay={300}
-                  src="assets/images/hero/author6.jpg"
-                  alt="Author"
-                />
-              </div>
-              <div className="client-logos">
                 <img
                   data-aos="fade-right"
                   data-aos-duration={1500}

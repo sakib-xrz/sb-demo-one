@@ -58,13 +58,13 @@ export default function Service() {
                   alt="About"
                 />
                 <div className="shape one">
-                  <img src="assets/images/shapes/about-two1.jpg" alt="Shape" />
+                  <img src="assets/images/shapes/about-two1.webp" alt="Shape" />
                 </div>
                 <div className="shape two">
-                  <img src="assets/images/shapes/about-two2.jpg" alt="Shape" />
+                  <img src="assets/images/shapes/about-two2.webp" alt="Shape" />
                 </div>
                 <div className="shape three">
-                  <img src="assets/images/shapes/about-two3.jpg" alt="Shape" />
+                  <img src="assets/images/shapes/about-two3.webp" alt="Shape" />
                 </div>
                 <div className="abs-headings">
                   <h6
@@ -74,7 +74,7 @@ export default function Service() {
                       color: "#fff",
                     }}
                   >
-                    SEO Growth
+                    SEO
                   </h6>
                   <h6
                     className="shape five"
@@ -83,7 +83,7 @@ export default function Service() {
                       color: "#2f3f61",
                     }}
                   >
-                    Game Changing Strategy
+                    Website Development
                   </h6>
                   <h6
                     className="shape six "
@@ -120,14 +120,15 @@ export default function Service() {
                   className="theme-btn color-white hover-secondary mt-25"
                   data-hover="Learn More Us"
                   style={{
-                    backgroundColor: "#2f3f61",
+                    backgroundColor: "#ffc605",
                     color: "#fff",
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = "#ffc605";
+                    e.currentTarget.style.backgroundColor = "#fff";
+                    e.currentTarget.style.color = "#2f3f61";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = "#2f3f61";
+                    e.currentTarget.style.backgroundColor = "#ffc605";
                   }}
                 >
                   <span>Learn More Us</span>
@@ -165,7 +166,7 @@ export default function Service() {
             {services.map(({ title, description }, i) => (
               <div
                 key={i}
-                className="col-xl-4 col-md-6"
+                className="col-xl-4 col-md-6 mb-30"
                 data-aos="flip-up"
                 data-aos-duration={1500}
                 data-aos-offset={50}
